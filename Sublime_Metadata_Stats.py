@@ -6,7 +6,7 @@ import yaml
 def read_files():
     rules = {}
     rule_keys = set()
-    path = "/home/dusty/git/forks/sublime-rules/"
+    path = "<location>"
     for (root, _, file) in os.walk(path):
         if ".github" in root:
             continue
